@@ -8,6 +8,26 @@ $subject = [
 	'valledupar'
 ];
 
+// Should this work?
+// $vowels = ['a', 'e', 'i', 'o', 'u'];
+// $replaced = [];
+// foreach ($subject as $index => $city) {
+// 	$split = str_split($city);
+	
+// 	foreach ($split as $index => $letter) {
+// 		if (in_array($letter, $vowels)) {
+// 			$prev_letter = isset($split[$index - 1]) ? $split[$index - 1] : '';
+// 			if ($prev_letter == "m") {
+// 				$split[$index] = '%';
+// 			}
+// 		}
+// 	}
+
+// 	$replaced[] = implode("", $split);
+// }
+
+// print_r($replaced);
+
 // Search for all "m"s followed by a vowel
 // $regex = '#(?<=m)[aeiou]#';
 
