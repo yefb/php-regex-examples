@@ -7,10 +7,10 @@ $text = 'Lorem ipsum dolor dolor sit amet,consectetur adipisicing elit, sed do e
 // $exploded = explode(" ", $text);
 // $found = [];
 // foreach ($exploded as $index => $word) {
-// 	$next_word = isset($exploded[$index + 1]) ? $exploded[$index + 1] : "";
-// 	if ($word == $next_word) {
-// 		$found[] = $word;
-// 	}
+//  $next_word = isset($exploded[$index + 1]) ? $exploded[$index + 1] : "";
+//  if ($word == $next_word) {
+//      $found[] = $word;
+//  }
 // }
 
 // print_r($found); echo "\n";

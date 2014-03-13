@@ -3,9 +3,9 @@
 $subject = '[Mercury],[Venus], [Earth] , [Mars] ,[Jupiter]';
 
 // Should this work?
-// $planets = explode(",", $subject);
+$planets = explode(",", $subject);
 
-// print_r($planets);
+print_r($planets);
 
 // // // hmmm, this would be necesary
 // foreach ($planets as $index => $planet) {

@@ -1,29 +1,29 @@
 <?php
 
 $subject = [
-	'medellin',
-	'bogota',
-	'cucuta',
-	'monteria',
-	'valledupar'
+    'medellin',
+    'bogota',
+    'cucuta',
+    'monteria',
+    'valledupar'
 ];
 
 // Should this work?
 // $vowels = ['a', 'e', 'i', 'o', 'u'];
 // $replaced = [];
 // foreach ($subject as $index => $city) {
-// 	$split = str_split($city);
-	
-// 	foreach ($split as $index => $letter) {
-// 		if (in_array($letter, $vowels)) {
-// 			$prev_letter = isset($split[$index - 1]) ? $split[$index - 1] : '';
-// 			if ($prev_letter == "m") {
-// 				$split[$index] = '%';
-// 			}
-// 		}
-// 	}
+//  $split = str_split($city);
 
-// 	$replaced[] = implode("", $split);
+//  foreach ($split as $index => $letter) {
+//      if (in_array($letter, $vowels)) {
+//          $prev_letter = isset($split[$index - 1]) ? $split[$index - 1] : '';
+//          if ($prev_letter == "m") {
+//              $split[$index] = '%';
+//          }
+//      }
+//  }
+
+//  $replaced[] = implode("", $split);
 // }
 
 // print_r($replaced);
@@ -33,11 +33,6 @@ $subject = [
 
 // Replace the vowels that follow an "m" by a "%" and return the replaced string
 // $replaced = preg_replace($regex, '%', $subject);
-
-// print_r($replaced);
-
-// Return just those strings that matched the regex
-// $replaced = preg_filter($regex, '%', $subject);
 
 // print_r($replaced);
 
@@ -51,3 +46,11 @@ $subject = [
 // $replaced = preg_replace($regex, '<<<$1>>>', $subject);
 
 // print_r($replaced); echo "\n";
+
+
+// Or replace the repeated work by it's Uppercase counterpart
+// $replaced = preg_replace_callback($regex, function ($match) {
+// 	return strtoupper($match[1]);
+// }, $subject);
+
+// print_r($replaced);
